@@ -7,6 +7,9 @@ button .pull-right{
     margin: 1em auto;
 }
 
+body, html {
+  padding-bottom: 50px;
+}
 h3 {
   font-size: 2.4em;
   color: white;
