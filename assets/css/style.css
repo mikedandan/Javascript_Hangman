@@ -1,4 +1,3 @@
-/* OUR ADDITION */
 button .pull-right{
     margin-top:1em;
 }
@@ -27,7 +26,7 @@ h3 {
   width: 100%;
 }
 
-/* Styles for the alphabet keypad */
+/* Styles for the alphabet */
 #alphabet-keypad {
   margin-left: 4%;
   text-align: center;
@@ -62,7 +61,7 @@ h3 {
   cursor: default;
 }
 
-/* Styles for the hangman graphic */
+/* Styles for the hangman graphics */
 #hangman-graphic {
   max-width: 50%;
 }
@@ -89,15 +88,13 @@ h3 {
 /* Other styles */
 .title {
   margin-left: 125px;
-  /* margin: 0.5em 0; */
-  /* text-align: left; */
 }
 
 .btn {
   background-color: rgb(173, 0, 0);
   color: white;
 }
-/* To be refactored for the letter graveyard */
+/* letter graveyard */
 #letter-graveyard {
   max-width: 50%;
   padding: 3em;
@@ -125,7 +122,7 @@ h3 {
   box-shadow: 0 .1em 0 0 black;
 }
 
-/* Styles used to display the wrong user guesses in the graveyard */
+/* Styles to display the wrong user guesses in the graveyard */
 .grave-letter {
   display: inline-block;
   color: rgb(173, 0, 0);
