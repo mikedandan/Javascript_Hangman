@@ -123,16 +123,15 @@
 
   // adding dictionary and word filter //
   var hangmanWords = [
-    "the","of","and","a","to","in","is","you","that","it","he",
-     "was","for","on","are","as","with","his","they","i","at","be",
-     "this","have","from","or","one","had","by","word","but","not",
-     "what","all","were","we","when","your","can","said","there",
-     "use","an","each","which","she","do","how","their","if","will",
-     "up","other","about","out","many","then","them","these","so",
-     "some","her","would","make","like","him","into","time","has",
-     "look","two","more","write","go","see","number","no","way",
-     "could","people","my","than","first","water","been","call",
-     "who","oil","its","now","find","long","down","day","did","get",
+    "spider","venom","that","wonder","team",
+     "this","have","thor","fall","one","word",
+     "what","all","were","when","your","said","there",
+     "use","each","which","their","will","web",
+     "other","about","hawkeye","many","then","them","these",
+     "some","would","make","like","him","into","time",
+     "hulk","more","write","see","number",
+     "could","people","deadpool","than","first","water","been","call",
+     "who","avenger","find","long","down","day","ironman","get",
      "come","made","may","part"
   ];
 
@@ -152,7 +151,7 @@
 
   function setWordToBeGuessed(){
 
-    currentWordFull = wordSelect(hangmanWords);//IMPORTANT: replace the number with wordSelect (the function) for production use
+    currentWordFull = wordSelect(hangmanWords);
 
     //set an all upper case version of the current word
     currentWord = currentWordFull.toUpperCase();
